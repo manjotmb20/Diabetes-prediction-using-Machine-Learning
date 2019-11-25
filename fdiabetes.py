@@ -136,5 +136,7 @@ clf3.fit(X_train,y_train)
 y_pred=clf3.predict(X_test)
 print("Final Best Accuracy-: {}%".format(accuracy_score(y_test,y_pred)*100))
 
+"""Final Accuracy using XGBoost with parameter tuned is 89.58 % """
+
 
 
